@@ -7,7 +7,10 @@ import reactImage from "../../assets/experience/react.png";
 import taiwind from "../../assets/experience/tailwind.png";
 import github from "../../assets/experience/github.png";
 import mongodb from "../../assets/experience/mongodb.jpg";
-import express from "../../assets/experience/express.png"
+import express from "../../assets/experience/express.png";
+import typescript from "../../assets/experience/typescript.png";
+import nextJS from "../../assets/experience/nextJS.png";
+import prisma from "../../assets/experience/prisma.png";
 
 const Experience = () => {
 
@@ -37,14 +40,14 @@ const Experience = () => {
         id: 4,
         src: node,
         title: 'Nodejs',
-        style: "shadow-green-500"
+        style: "shadow-green-800"
     },
 
     {
         id: 5,
         src: express,
         title: 'Express js',
-        style: "shadow-green-500"
+        style: "shadow-yellow-300"
     },
 
     {
@@ -74,13 +77,34 @@ const Experience = () => {
         title: 'GitHub',
         style: "shadow-gray-500"
     },
+
+    {
+        id: 10,
+        src: typescript,
+        title: 'TypeScript',
+        style: "shadow-indigo-400"
+    },
+
+    {
+        id: 11,
+        src: nextJS,
+        title: 'NextJS',
+        style: "shadow-gray-200"
+    },
+
+    {
+        id: 12,
+        src: prisma,
+        title: 'Prisma',
+        style: "shadow-blue-700"
+    },
   ]
 
   return (
     <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full
         h-full text-white'>
-            <div>
+            <div className='pt-[145px] mt-[160px]'>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
                 <p className='py-6'>These are the technologies I have worked with</p>
             </div>

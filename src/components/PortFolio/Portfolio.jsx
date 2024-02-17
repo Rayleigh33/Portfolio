@@ -2,7 +2,8 @@ import React from 'react';
 import homyz from "../../assets/portfolio/homyz.png";
 import memories from "../../assets/portfolio/memories.png";
 import removebg from "../../assets/portfolio/removebg.png";
-import ecommerce from "../../assets/portfolio/ecommerce.png"
+import ecommerce from "../../assets/portfolio/ecommerce.png";
+import discord from "../../assets/portfolio/discord.png";
 
 const Portfolio = () => {
    
@@ -62,10 +63,20 @@ const Portfolio = () => {
             }
         },
 
-        // {
-        //     id: 5,
-        //     src: arrayDestruct
-        // },
+        {
+            id: 5,
+            src: discord,
+            handleClick ()  {
+                const link = "https://github.com/Rayleigh33/discord-clone";
+ 
+                window.open(link,'_blank');
+            },
+
+            handleDemo () {
+                const link = "https://discord-clone-production-ee91.up.railway.app";
+                window.open(link,'_blank');
+            }
+        },
     ]
 
   return (
