@@ -19,7 +19,7 @@ const Home = () => {
 
                 <div>
                     <Link to='portfolio' smooth duration={500} 
-                    className='group text-white w-fit px-6 py-3 my-2 flex items-center
+                    className='group text-white w-fit px-6 py-3 my-5 flex items-center
                     rounded-md bg-gradient-to-r from-cyan-500 to-purple-800 cursor-pointer'>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
